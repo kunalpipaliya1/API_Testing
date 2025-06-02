@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.example.API_DeleteMethod">
+      <class name="bearertoken.Bearertoken_code">
         <methods>
-          <include name="testcase01"/>
+          <include name="Bearertoken"/>
         </methods>
-      </class> <!-- com.example.API_DeleteMethod -->
+      </class> <!-- bearertoken.Bearertoken_code -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
