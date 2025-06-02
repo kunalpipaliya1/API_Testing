@@ -1,4 +1,4 @@
-package com.example;
+package API_Testing_CURD_Operation;
 
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
