@@ -21,7 +21,7 @@ public class API_GetMethod {
 		} else {
 			System.out.println("Response empty...!!");
 		}
-		
+
 		System.out.println("API Status code: " + response.statusCode());
 		System.out.println("API Response body code: " + response.body().asString());
 		System.out.println("API Header code: " + response.getHeaders());

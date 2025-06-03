@@ -9,23 +9,28 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-public class Api_key_authent {
+public class Api_key_authentication {
 	
 	@Test
 	public void Bearertoken() {
-		// https://api.openweathermap.org/data/2.5/weather?q=Rajkot&appid=YOUR_API_KEY
+		// https://api.openweathermap.org/data/2.5/weather?q={city name}&appid=YOUR_API_KEY
+		// https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
 
 		RequestSpecification request = RestAssured.given();
 		
 		request.baseUri("https://api.openweathermap.org");
 		request.basePath("/data/2.5/weather");
 		request.queryParam("q", "Rajkot");
-		request.queryParam("appid", "4708cd9d4ae4bf2dd98a2e23ac3d24815ba88cd49bcb72dc6ed5621e222f4043");
+		request.queryParam("appid", "82a7225b84c1931c4618d5ed6df88df5");
 		
 		Response response = request.get();
 		System.out.println("Response body" + response.statusCode());
 		System.out.println("Response body" + response.statusLine());
-
+		
+		int status_code = response.statusCode();
+		
+		
+		Assert.assertEquals(status_code, 200);
 		
 	}
 

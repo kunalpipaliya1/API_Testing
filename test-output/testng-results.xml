@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-02T17:48:49 IST" name="Default suite" finished-at="2025-06-02T17:48:50 IST" duration-ms="1556">
+  <suite started-at="2025-06-03T12:56:33 IST" name="Default suite" finished-at="2025-06-03T12:56:35 IST" duration-ms="1919">
     <groups>
     </groups>
-    <test started-at="2025-06-02T17:48:49 IST" name="Default test" finished-at="2025-06-02T17:48:50 IST" duration-ms="1556">
-      <class name="api_key_authentication.Api_key_authent">
-        <test-method signature="Bearertoken()[pri:0, instance:api_key_authentication.Api_key_authent@5c33f1a9]" started-at="2025-06-02T17:48:49 IST" name="Bearertoken" finished-at="2025-06-02T17:48:50 IST" duration-ms="1503" status="PASS">
+    <test started-at="2025-06-03T12:56:33 IST" name="Default test" finished-at="2025-06-03T12:56:35 IST" duration-ms="1919">
+      <class name="authorization_OAuth.OAuth_Authorization">
+        <test-method signature="OAuth2_ClientCredentials()[pri:0, instance:authorization_OAuth.OAuth_Authorization@5c33f1a9]" started-at="2025-06-03T12:56:33 IST" name="OAuth2_ClientCredentials" finished-at="2025-06-03T12:56:35 IST" duration-ms="1871" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Bearertoken -->
-      </class> <!-- api_key_authentication.Api_key_authent -->
+        </test-method> <!-- OAuth2_ClientCredentials -->
+      </class> <!-- authorization_OAuth.OAuth_Authorization -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

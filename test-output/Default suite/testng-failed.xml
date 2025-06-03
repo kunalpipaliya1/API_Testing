@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="bearertoken.Bearertoken_code">
+      <class name="authorization_OAuth.OAuth_Authorization">
         <methods>
-          <include name="Bearertoken"/>
+          <include name="OAuth2_ClientCredentials"/>
         </methods>
-      </class> <!-- bearertoken.Bearertoken_code -->
+      </class> <!-- authorization_OAuth.OAuth_Authorization -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
